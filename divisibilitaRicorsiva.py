@@ -1,4 +1,4 @@
-''' tutti i numeri naturali < 10 multipli di 3 o 5 sono 3, 6, 9, 5; la cui somma è 23 '''
+''' tutti i numeri naturali < 10 multipli di 3 o 5 sono 3, 6, 9, 5; la cui somma è 23. Trovare la somma dei multipli di 3 o 5 a partire da 1000 fino a 3 '''
 
 def my_min(alfa, beta):
     if alfa < beta:
