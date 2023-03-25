@@ -1,5 +1,6 @@
 """Scrivi una funzione ricorsiva find_largest_prime_factor(number, largest_prime_factor=1)
-che calcoli e ritorni il più grande fattore primo del numero dato."""
+che calcoli e ritorni il più grande fattore primo del numero dato.
+questo codice restituisce invece il minimo"""
 
 def find_largest_prime_factor(number, largest_prime_factor=1):
     ret = 1
