@@ -18,11 +18,10 @@ def prim_jarnik(graph, start):
         crossing = [] # lista corrente dei nodi presi in esame una e una sola volta
         for x in X:
             for k in graph:
-            """k varierà prima"""
+            # k varierà prima
                 if k not in X and k in graph[x]:
                     """
-                    nota che graph[x][k] è sempre un numero che descrive il peso dell'arco
-                    
+                    nota che graph[x][k] è sempre un numero che descrive il peso dell'arco                    
                     """
                     crossing.append((graph[x][k], x, k))
         w, u, v = minpop2(crossing)
